@@ -4,9 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Enable FastF1 caching
-fastf1.Cache.enable_cache('cache')
-
 # Streamlit UI
 st.title("🏎️ Formula 1 Data Analysis Dashboard")
 st.sidebar.header("Select Race Details")

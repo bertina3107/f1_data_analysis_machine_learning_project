@@ -12,7 +12,7 @@ st.sidebar.header("Select Race Details")
 year = st.sidebar.selectbox("Select Year", [2023, 2022, 2021])
 race_name = st.sidebar.text_input("Enter Race Name (e.g., Abu Dhabi)")
 session_type = st.sidebar.selectbox("Session Type", ["R", "Q", "FP2"])
-driver_filter = st.sidebar.multiselect("Select Drivers for Comparison", [])
+driver_filter = st.sidebar.multiselect("Select Drivers for Comparison", driver_laps, default=driver_laps[:2])
 
 # Load race data
 if st.sidebar.button("Load Data"):

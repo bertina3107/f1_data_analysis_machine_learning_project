@@ -23,7 +23,7 @@ if st.sidebar.button("Load Data"):
          # Extract Lap Data
         st.subheader("Lap Time Analysis")
         driver_laps = session.laps["Driver"].unique()
-        ddriver_filter = st.sidebar.multiselect("Select Drivers for Comparison", driver_laps, default=driver_laps[:2])
+        driver_filter = st.sidebar.multiselect("Select Drivers for Comparison", driver_laps, default=driver_laps[:2])
         filtered_laps = session.laps[session.laps["Driver"].isin(driver_filter)]
         filtered_laps["LapTime"] = filtered_laps["LapTime"].dt.total_seconds()
     

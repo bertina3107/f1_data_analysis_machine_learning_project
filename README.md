@@ -23,5 +23,5 @@ Data Sources
 
 Ergast API (http://ergast.com/mrd/)
 
-Data includes driver information, constructor details, grid positions, finishing positions, and race results from 2023 and 2024
+Data includes driver information, constructor details, grid positions, finishing positions, and race results from 2015 to 2023
 

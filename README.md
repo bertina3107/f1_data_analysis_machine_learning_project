@@ -1,5 +1,4 @@
 # Formula One Data Analysis and Prediction
-https://cwbf1dataanalysisproject.streamlit.app/
 
 <img width="1440" alt="Screen Shot 2025-03-20 at 11 27 08 AM" src="https://github.com/user-attachments/assets/85c3f289-8863-4254-af58-86512c8f9bd1" />
 
